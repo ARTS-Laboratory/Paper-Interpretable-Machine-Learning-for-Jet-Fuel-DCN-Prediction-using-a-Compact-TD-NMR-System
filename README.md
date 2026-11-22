@@ -2,6 +2,12 @@
 
 This GitHub repository accompanies the paper "Interpretable Machine Learning for Jet Fuel DCN Prediction using a Compact TD NMR System", and contains a reproduction of the methodology demonstrated in that paper.
 
+## v1 - Publicatoin 
+* Initial code and artifacts 
+
+## v2 - corrigendum
+* Updated code and artifacts
+
 ## Licensing and Citation
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
