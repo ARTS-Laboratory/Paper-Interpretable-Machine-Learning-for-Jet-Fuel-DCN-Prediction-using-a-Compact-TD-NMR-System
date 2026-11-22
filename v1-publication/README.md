@@ -1,0 +1,2 @@
+# v1 Publication
+This folder is empty as no code was pushed with the initial publicatoin. Only data was shared, using this [repository](https://github.com/ARTS-Laboratory/Dataset-time-domain-NMR-hydrocarbon-and-fuel-relaxometry). 
