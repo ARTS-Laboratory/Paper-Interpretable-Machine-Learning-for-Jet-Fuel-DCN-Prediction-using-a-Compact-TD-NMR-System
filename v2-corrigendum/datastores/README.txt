@@ -1,1 +1,1 @@
-.mat files for training and testing
+.mat files for training and testing.
