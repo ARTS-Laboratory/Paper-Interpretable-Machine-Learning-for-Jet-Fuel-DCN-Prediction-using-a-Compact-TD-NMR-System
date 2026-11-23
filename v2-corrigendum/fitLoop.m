@@ -35,7 +35,7 @@ for i = 1:n
         fprintf('Fraction %.2f',frac(j))
         
         % format training data (using all ten features + DCN)
-        [X,Y,~] = featuresFromFrac(frac(j), trainData, trainDCN, 0);
+        [X, Y, ~] = featuresFromFracTrain(frac(j), trainData, trainDCN, 0);
 
         trainTable = array2table([X, Y]);
         trainTable.Properties.VariableNames = ["Amplitude", "Rate", "Mean"," Stdev", "RMS", ...
@@ -50,7 +50,7 @@ for i = 1:n
         meanOOBMat(j, i) = mean(oobError(model));
 
         % calculate RMSE on test data
-        [features, DCN, isJet] = featuresFromFrac(frac(j), testData, testDCN, -1);
+        [features, DCN, isJet] = featuresFromFracTrain(frac(j), testData, testDCN, -1);
         preds = predict(model, features);
         residuals = abs(preds-DCN);
         rmseMat(j,i) = sqrt(1/height(features) * sum(residuals.^2));

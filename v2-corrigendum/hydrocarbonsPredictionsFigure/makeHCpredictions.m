@@ -3,8 +3,8 @@ clear; close all; clc;
 
 hcDCN = [6 47.8 18.9 14.2];
 
-load hcData.mat
-load time.mat
+load data/hcData.mat
+load data/time.mat
 
 load models\mean_stdev_model_300_0.14.mat
 

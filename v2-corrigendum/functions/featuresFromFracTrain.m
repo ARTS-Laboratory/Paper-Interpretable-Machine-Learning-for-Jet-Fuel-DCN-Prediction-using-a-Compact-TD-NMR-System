@@ -1,4 +1,4 @@
-function [featureMat,DCN,isJet] = featuresFromFrac(frac,data,dcnVec,new)
+function [featureMat,DCN,isJet] = featuresFromFracTrain(frac,data,dcnVec,new)
 %featuresFromFrac(frac,data,dcns) computes ten signal features from only a 
 %fraction of T2 decay data. 
 %   First parameter (frac) is a fraction representing the cuttoff amplitude for
