@@ -1,2 +1,2 @@
 # v2 Corrigendum
-* This folder contains any updated codes used to inspect the paper for the corrigendum. 
+* This folder contains updated/cleaned codes and artifacts used to inspect the paper for the corrigendum. 
