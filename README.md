@@ -5,7 +5,7 @@ This GitHub repository accompanies the paper "Interpretable Machine Learning for
 ## v1 - Publicatoin 
 * Initial code and artifacts 
 
-## v2 - corrigendum
+## v2 - Corrigendum
 * Updated code and artifacts
 
 ## Licensing and Citation
